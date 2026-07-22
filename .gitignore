@@ -1,0 +1,34 @@
+#venv
+.venv/
+venv/
+env/
+
+#data
+data/
+*.en
+*.ru
+*.parquet
+*.arrow
+*.txt
+
+#weights and checkpoints
+*.pt
+*.pth
+*.bin
+*.safetensors
+checkpoints/
+models/
+
+#cache and byte code
+.cache/
+runs/
+logs/
+wandb/
+
+
+#settings of system and IDE
+.vscode/
+.idea/
+.DS_Srore
+Thumbs.db
+
